@@ -1,0 +1,17 @@
+CREATE TABLE `users` (
+  `user_id` int(5) NOT NULL AUTO_INCREMENT,
+  `login` varchar(30) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `reg_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 |
+
+
+ CREATE TABLE `messages` (
+  `msg_id` int(5) NOT NULL AUTO_INCREMENT,
+  `to_user` int(5) DEFAULT NULL,
+  `from_user` int(5) DEFAULT NULL,
+  `msg` varchar(255) DEFAULT NULL,
+  `msg_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`msg_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 |
