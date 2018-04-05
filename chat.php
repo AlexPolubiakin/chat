@@ -66,33 +66,9 @@
                     }
                 }
                 
-                
-                
-                
-                // echo $_SESSION['login'];
-                // echo "<br>";
-                // echo $_SESSION['user_to_id'];
-                // echo "<br>";
-                // echo $_SESSION['msg'];
-                // echo "<br>";
+     
               ?>
-              
-              <!--<div class='msg'><span class='msg_rcv'>  <span class='date'>   </span></span></div>-->
-              <!--<div class='msg'><span class='msg_send'>Привет! Дела лучше всех <span class='date'>2018-04-05 09:39:01</span></span></div>-->
-              <!-- 
-              
-              сообщения можно реализовать по принципу айфона те которы от человека они белые слева
-              те которые пишет сам пользователь они зеленые и справа 
-              
-              необходимо сюда написать выгрузку сообщений из базы данных messages 
-              для выгрузки сообщений нужно:
-              logged in user
-              selected user 
-              msg - само сообщение
-              msg time - возможно это можно использовать для ранжирования вывода данных сообщений 
-               
-               
-               -->
+ 
             </div>
             <!-- форма ввода сообщений -->
                 <form action="msghandler.php" method="post">
